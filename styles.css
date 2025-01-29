@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2, h3 {
+    color: #f4a261;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.job, .project {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #f4a261;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
